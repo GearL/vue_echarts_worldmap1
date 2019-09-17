@@ -1,4 +1,4 @@
-# vue_echarts_worldmap1
+# worldareamap
 ### 此世界地图根据颜色深浅来显示全球地区数据多少
 ### 功能：
 ####     1.可点击图斑
@@ -17,5 +17,39 @@ worldData:[
 {name:"china",value:123456},
 {name:"china",value:123456},
 {name:"china",value:123456}
+]
+```
+# pointwroldmap
+### 在世界地图上画点
+### 数据：
+```
+initData:[
+{
+    country:"保加利亚"
+    index:0
+    itemStyle:{
+        color:"rgba(0,0,0,0)",
+    }
+    name:"Sandanski municipality, Blagoevgard",
+    value:[0,0,50]
+},
+{
+    country:"保加利亚"
+    index:0
+    itemStyle:{
+        color:"rgba(0,0,0,0)",
+    }
+    name:"Sandanski municipality, Blagoevgard",
+    value:[0,0,50]
+},
+{
+    country:"保加利亚"
+    index:0
+    itemStyle:{
+        color:"rgba(0,0,0,0)",
+    }
+    name:"Sandanski municipality, Blagoevgard",
+    value:[0,0,50]
+},
 ]
 ```
